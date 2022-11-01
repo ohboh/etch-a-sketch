@@ -11,7 +11,7 @@
     <div class="container-of-containers">
 
         <div class="left-container">
-            insert color picker here
+            <div id="reset-button">RESET</div>
         </div>
 
         <div class="mid-container">
@@ -21,13 +21,17 @@
             </div>
         </div>
 
-        <div class = "right-container">
+        <div class="right-container">
             <div class="slidecontainer">
-                <input type="range" min="4" max="64" value="50" class="slider" id="myRange" orient="vertical" step=4>
+                <input type="range" min="8" max="64" value="50" class="slider" id="myRange" orient="vertical" step=4>
             </div>
             <div class="ratio">
                 <div id="numerator"></div>
-                <span>• •</span>
+                <div id="color-button-container">
+                    <button class="color-button" id="black-button"></button>
+                    <button class="color-button" id="white-button"></button>
+                    <button class="color-button" id="rgb-button"></button>
+                </div>
                 <div id="denominator"></div>
             </div>
         </div>

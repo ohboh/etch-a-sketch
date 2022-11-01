@@ -1,2 +1,2 @@
 # etch-a-sketch
-An etch-a-sketch game made in JavaScript as part of The Odin Project curriculum
+An brutalist etch-a-sketch toy made as part of The Odin Project curriculum
